@@ -1,0 +1,119 @@
+.home_section .slide_part {
+  display: flex;
+  align-items: center;
+}
+
+.slide_part .left_slide {
+  width: 80%;
+}
+
+.slide_part .right_slide {
+  width: 20%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.3em;
+}
+.slide_part .right_slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.products_section {
+  background-color: #fff;
+  padding-bottom: 1rem;
+  border-radius: 0.5em;
+  margin: 0.35rem;
+}
+.products_deal {
+  /* background-color: aqua; */
+  padding: 0rem 1rem 0rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products_deal .view_btn {
+  padding: 9px 15px;
+  border: none;
+  background-color: #2874f0;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  border-radius: 0.35em;
+  cursor: pointer;
+  height: 2.5rem;
+}
+
+.products_deal .view_btn:hover {
+  background-color: #4b85e1;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.products_section a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.products_items img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.3em;
+}
+
+.products_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 0.5rem;
+  /* background-color: #2874f0; */
+}
+
+.products_items p {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+.products_offer {
+  color: #027502;
+}
+.products_explore {
+  color: #808080;
+}
+.products_items img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.center_img img {
+  display: block;
+  width: 90%;
+  margin: 0.5rem auto;
+}
+
+@media (max-width: 1150px) {
+  .products_items img {
+    width: 7rem;
+    height: 7rem;
+  }
+  .products_items p {
+    font-size: 0.75rem;
+  }
+  .products_deal {
+    font-size: 0.75rem;
+  }
+  .products_deal .view_btn {
+    font-size: 0.8rem;
+  }
+  .slide_part .right_slide {
+    height: 15rem;
+  }
+}

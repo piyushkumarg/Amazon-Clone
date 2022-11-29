@@ -1,0 +1,138 @@
+.footer {
+  height: 50vh;
+  /* background-color: aqua; */
+}
+
+.footer_container {
+  background-color: #232f3e;
+  padding: 2rem 0rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 75%;
+}
+
+.footer_container .footer_details h3 {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.footer_container .footer_details p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin: 4px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.last_details_one,
+.last_details_two {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.last_details_one {
+  background-color: #232f3e;
+}
+
+.last_details_two {
+  background-color: #131a22;
+}
+
+.last_details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 0.6;
+}
+
+.last_details_one {
+  width: 100%;
+  /* flex-grow: 0.3; */
+}
+
+.last_details_one > img {
+  width: 10%;
+  object-fit: contain;
+  flex-grow: 0.1;
+  margin: auto;
+}
+
+.last_details_one_para {
+  display: flex;
+  font-size: small;
+  padding: 0rem 3rem;
+}
+
+.last_details_two {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.last_details_two p {
+  margin: auto;
+  font-size: 1rem;
+  /* background-color: red; */
+}
+
+.last_details_one_para {
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.last_details_one_para > * {
+  cursor: pointer;
+}
+.back_to_top {
+  width: 100%;
+  padding: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: #37475a;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+.back_to_top:hover {
+  background-color: #465567;
+}
+
+.footer_container .footer_details p:hover {
+  text-decoration: underline;
+}
+.last_details_one_para p:hover {
+  text-decoration: underline;
+  border: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .footer_container {
+    /* background-color: lightblue; */
+    height: 45%;
+  }
+  .last_details_one {
+    /* height: 12%; */
+    display: flex;
+    font-size: x-small;
+  }
+  .last_details_one > img {
+    width: 23%;
+    margin: auto;
+  }
+  .footer {
+    height: 800px;
+  }
+
+  .last_details_one_para p {
+    margin: 0;
+  }
+}
